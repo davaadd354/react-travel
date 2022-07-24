@@ -1,9 +1,12 @@
+import React from "react";
+import "./assets/scss/style.scss"
+import Router from "./routes";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
+
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <Router />
   );
 }
 
